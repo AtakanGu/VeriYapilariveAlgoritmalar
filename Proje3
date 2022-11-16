@@ -1,0 +1,30 @@
+# VeriYapilariveAlgoritmalar
+www.patika.dev tarafından verilen eğitimin bitirme projeleri
+
+Binary Search Tree Projesi
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.                                                                       
+
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] -> Binary Search Tree
+
+
+Dizinin en başında ki değer 7 olduğu için bizim dizinin root değeri 7dir.
+Root [7] seçtim:
+
+
+
+             7
+           /   \ 
+          5     8
+         /     / \
+        1     6   9
+       / \
+      0   3
+         / \
+        2   4 
+
+
+Binary Search Tree algoritması bu şekildedir.
+
+
+www.patika.dev                          
