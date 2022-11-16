@@ -1,0 +1,54 @@
+# VeriYapilariveAlgoritmalar
+www.patika.dev tarafından verilen eğitimin bitirme projeleri
+
+Insertion Sort Projesi(Proje 1)
+
+
+[22,27,16,2,18,6] -> Insertion Sort
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+[2,27,16,22,18,6] 2 Dizinin en küçük sayısı olduğundan en başa alabilmek için 22 ile yer değiştiriyoruz.
+[2,6,16,22,18,27] dizinin 2 den sonra en küçük rakamı 6 olduğundan 6 ile 27 rakamlarını yer değiştiriyoruz.
+[2,6,16,18,22,27] dizide 6 dan sonra en küçük rakam 16 olduğunda üçüncü sıra için işlem yapmamıza gerek kalmadan 16 dan sonraki en küçük rakam olan 18 i dördüncü sıraya alabilmek için 22 ile yer değiştiriyoruz.Beşinci ve altıncı sıradaki rakamlar zaten sıralı olduğundan dizimiz sıraya alınmış oluyor.
+
+
+Big-O gösteriminin yapılması:
+
+
+Bir dizinin eleman sayısına n dersek bu diziyi sıralayabilmek için ilk adımda tüm elemanlarla karşılaştırdığımızda n tane işlem yapıyoruz yani   
+n = 6 için 6 tane işlem yapıyoruz.
+İkinci adımda en küçük elemandan sonraki en küçük elamanı bulmak için n-1 tane işlem yapıyoruz 
+yani 
+6-1=5 işlem
+Üçüncü adımda iki en küçük elemandan sonraki en küçük elemanı bulmak için n-2 tane işlem yapıyoruz yani 6-2=4 işlem
+oluyoruz.Yani bu şekilde en son 1 eleman kalana kadar devam edersek genel formül olarak n.(n+1)/2 buluruz.Bu da Big-O cinsinden en büyük dereceyi aldığımız için n² olarak buluruz.
+
+
+    Big-O değeri = O(n²)
+
+Time Complexity:
+
+Best Case = [x,.,.,.,.]
+
+Average Case = [,.,.,x,.,.,.]
+
+Worst Case = [.,.,.,.,.,.,.,x]
+
+Bu dizide 18 için bakarsak : [2,6,16,18,22,27] şeklinde olduğu için Average Case olduğu görülür.
+
+
+[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız:
+
+[2,|3,5,8,7,9,4,15,6] Birinci adım
+
+[2,3,|5,8,7,9,4,15,6] İkinci adım
+
+[2,3,4,|8,7,9,5,15,6] Üçüncü adım
+
+[2,3,4,5,|7,9,8,15,6] Dördüncü adım
+
+
+
+
+
+
